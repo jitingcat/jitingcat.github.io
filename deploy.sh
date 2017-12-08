@@ -16,7 +16,7 @@ cd ./public
 git config --global user.name "${GitHubUser}"
 git config --global user.email "${GitHubEmail}"
 
-git add .
+git add --all .
 git commit -m "site updated: `date +"%Y-%m-%d %H:%M:%S"`"
 
 git push --quiet --force https://${GitHubToken}@github.com/${GitHubUser}/${GitHubRepo}.git master:master 

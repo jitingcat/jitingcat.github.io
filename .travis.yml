@@ -18,6 +18,7 @@ install:
 script:
   - hexo clean
   - hexo g
+  - gulp
 
 after_script:
   - cd ..
