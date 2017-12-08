@@ -80,11 +80,11 @@ include:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: git@github.com:jitingcn/jitingcn.github.io.git
-  branch: master
-  message: 
+#deploy:
+#  type: git
+#  repo: git@github.com:jitingcn/jitingcn.github.io.git
+#  branch: master
+#  message: 
 
 feed:
   type: atom
