@@ -51,11 +51,9 @@
     </entry>
     
     <entry>
-      <title></title>
-      <url>/links/index.html</url>
-      <content type="html"><![CDATA[<hr>
-<p>title: 友链<br>date:</p>
-<h2 id="layout-links"><a href="#layout-links" class="headerlink" title="layout: links"></a>layout: links</h2>]]></content>
+      <title><![CDATA[友情链接]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
     </entry>
     
     <entry>
