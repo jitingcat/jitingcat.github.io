@@ -60,7 +60,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="寂听的博客">
-    <meta name="keywords" content="jiting&#39;s blog,jiting,jitingcat">
+    <meta name="keywords" content="jiting&#39;s blog">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -97,7 +97,7 @@
 <!-- Other Styles -->
 <style>
   body, html {
-    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
     overflow-x: hidden !important;
   }
   
@@ -182,22 +182,6 @@
 
 <!-- Fade Effect -->
 
-    <style>
-      .fade {
-        transition: all 800ms linear;
-        -webkit-transform: translate3d(0,0,0);
-        -moz-transform: translate3d(0,0,0);
-        -ms-transform: translate3d(0,0,0);
-        -o-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-        opacity: 1;
-      }
-
-      .fade.out{
-        opacity: 0;
-      }
-    </style>
-
 
 <!-- Import Font -->
 <!-- Import Roboto -->
@@ -221,7 +205,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Jiting&#39;s Blog - Sabishi Yozora">
-    <meta name="msapplication-starturl" content="https://blog.jtcat.com/hello-world/">
+    <meta name="msapplication-starturl" content="https://blog.jtcat.com/archives/hello-world">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Jiting&#39;s Blog - Sabishi Yozora">
@@ -240,7 +224,7 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://blog.jtcat.com/hello-world/">
+    <meta property="og:url" content="https://blog.jtcat.com/archives/hello-world">
     <meta property="og:type" content="blog">
     <meta property="og:title" content="Hello World | Jiting&#39;s Blog - Sabishi Yozora">
     <meta property="og:image" content="/img/favicon.png">
@@ -248,7 +232,7 @@
     
 
     
-        <meta property="article:published_time" content="Wed Dec 06 2017 20:53:37 GMT+0800">
+        <meta property="article:published_time" content="Fri Dec 08 2017 18:29:42 GMT+0800">
         <meta property="article:modified_time" content="Wed Dec 06 2017 16:47:54 GMT+0800">
     
 
@@ -257,7 +241,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://blog.jtcat.com/hello-world/index.html" />
+        <link rel="canonical" href="https://blog.jtcat.com/archives/hello-world" />
     
 
     <!-- Structured-data for SEO -->
@@ -269,9 +253,9 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "https://blog.jtcat.com/hello-world/index.html",
+    "mainEntityOfPage": "https://blog.jtcat.com/archives/hello-world",
     "headline": "Hello World",
-    "datePublished": "Wed Dec 06 2017 20:53:37 GMT+0800",
+    "datePublished": "Fri Dec 08 2017 18:29:42 GMT+0800",
     "dateModified": "Wed Dec 06 2017 16:47:54 GMT+0800",
     "author": {
         "@type": "Person",
@@ -290,7 +274,7 @@
             "url": "/img/favicon.png"
         }
     },
-    "keywords": "jiting&#39;s blog,jiting,jitingcat",
+    "keywords": "jiting&#39;s blog",
     "description": "寂听的博客",
 }
 </script>
@@ -415,7 +399,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>寂听</strong>
-        <span>12月 06, 2017</span>
+        <span>12月 08, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -437,7 +421,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACaklEQVR42u3aQXKDMAwF0Nz/0u22m5D/LTA081h1GAJ+XliqpNfPV18vPDw8PDw8PDy8h/Fe8fXuV3/vJH8fv/OEteHh4eFt4X04apeeSbYg36biu3h4eHgbee0nj59Pgsoxpl0bHh4e3pN5SWr77hBP3oyHh4f3fbw2YOSlh8fFPTw8PLxxMSI5yo/fmXzxtloLHh4eXszLm0z7/97a38PDw8MLePVI01L5NSnjXjJ0hYeHh3cBb1KinTe92kZalLLj4eHh3cprywTH99tRg/wOHh4e3l28fFnzwYI8KU/Kx3h4eHj7eXljvm5HDRL0tRIGHh4e3n7edQ2ttgDRPomHh4f3HF5bbM2T4LXnR5MReHh4eGNekhznqXZbjMibXsfjC3h4eHg7eXkra36srzXM8l/h4eHh7eTlR/OrvPI2Wz4u8GHT8fDw8LbwkkM5L9q2gwX5Sk4YusLDw8M7lTdphrUblAeMOlTg4eHhbeHlo1Frg1aTL9bhBA8PD28Lb15sTTYlDzn5Zi1WqfHw8PDGvCSxTrYgf08+IlDfwcPDw9vCW1touyl58MhLEnXcw8PDwzuVlw8NtI3/vAyx1jzDw8PDu4vXtqDWyhltYTdJyvHw8PB28tqrTZrXSr3JBuHh4eHdxVs7lPPfXhF+Thu6wsPDwxvwJgnxvOjQhpw6MODh4eFdxmsbXfmy2mCQbxAeHh7e/+LVBdb4TvJkPXSFh4eHdysvWcpawTcvCr/9BwAPDw9vIy9vSrWJcttOS1JtPDw8vHt5a62spEiRbFBbbviwxXh4eHgX877vwsPDw8PDw8PDe8D1C1e+r1tLZjbqAAAAAElFTkSuQmCC">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACaElEQVR42u3aUW4CMQwFQO5/6fYAVZf3nE3YVrNfSJSQSaXY2H59/evnhYeHh4eHh4eH9zDeK35+XS5+93rln+vM9oaHh4d3hvfmqv3li39u4t5PDfeGh4eHd5CXXNnX13f792+u+HJveHh4eM/nJYz2IJJ38fDw8P4u73pb7aXfFjLw8PDwnsBbKcXmRYRrzIdrLXh4eHgxL28ynX99tL+Hh4eHF/DqkaZgpKAt4+ZhoB66wsPDw9vAa9Pl/MpuCxP5Z9+k7Hh4eHhHePUSZROrPYJktRuKEXh4eHgj3nUhdZYWrzfA8gGs4hcDHh4e3q285JrOm1jra+bBAw8PD++zvGKwaeHdNo2ugxYeHh7eQd6sfZUnzbPUOf834OHh4Z3krSTEw02UJd0iNcfDw8PbzGuT2tkAQXKg+a6GowN4eHh4G3izC7oNMysF3OSA8PDw8Hbz8obW9de3W8+LxTcMXeHh4eFt481GqdaT8pX93DY6gIeHh3dTGTdva+UBoz2gtuSBh4eHt5uXJMSzwJAXZ2dlETw8PLwn8Nri6VLiWwaGPCnHw8PD+xSvTaNngWFWUC6KEXh4eHibeS141h7Lx7PaY8XDw8M7z2tf3zWANSvX3vCLAQ8PD2/Ea5/1MYK7Umo8PDy8T/GG7fmyldW22VoSHh4e3nleEgzacupKkWLWcsPDw8M7z8sv6Gj4qdxuHqjeHCUeHh7eI3ntCslnZ4e1JTDg4eHhbc4595V3cxIeHh7ep3h5U2olyW7HDpKQg4eHh3ee117oyXbXE/F23AoPDw/vDO//PXh4eHh4eHh4eA94vgFl+wD8IuSBkgAAAABJRU5ErkJggg==">
     
 </ul>
 
@@ -470,7 +454,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Hello World&url=https://blog.jtcat.com/hello-world/index.html&pic=https://blog.jtcat.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Hello World&url=https://blog.jtcat.com/archives/hello-world&pic=https://blog.jtcat.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -479,7 +463,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Hello World&url=https://blog.jtcat.com/hello-world/index.html&via=寂听" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Hello World&url=https://blog.jtcat.com/archives/hello-world&via=寂听" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -488,16 +472,10 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://blog.jtcat.com/hello-world/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Facebook
-            </li>
-        </a>
-    
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=https://blog.jtcat.com/hello-world/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://blog.jtcat.com/archives/hello-world" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -509,7 +487,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Jiting&#39;s Blog - Sabishi Yozora&title=Hello World&summary=寂听的博客&pics=https://blog.jtcat.com/img/favicon.png&url=https://blog.jtcat.com/hello-world/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Jiting&#39;s Blog - Sabishi Yozora&title=Hello World&summary=寂听的博客&pics=https://blog.jtcat.com/img/favicon.png&url=https://blog.jtcat.com/archives/hello-world" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -518,7 +496,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=https://blog.jtcat.com/hello-world/index.html&text=Hello World" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://blog.jtcat.com/archives/hello-world&text=Hello World" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Telegram
             </li>
@@ -552,10 +530,10 @@
                 <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
                     <p><strong>
                          
-                            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。
+                            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">本文采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。
                         </strong>
                         <br>
-                        <strong>本文链接：</strong><a href="https://blog.jtcat.com/hello-world/">https://blog.jtcat.com/hello-world/</a>
+                        <strong>本文链接：</strong><a href="https://blog.jtcat.com/archives/hello-world">https://blog.jtcat.com/archives/hello-world</a>
                     </p>
                 </blockquote>
         
@@ -611,8 +589,8 @@
 
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'https://blog.jtcat.com/hello-world/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'https://blog.jtcat.com/hello-world/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'https://blog.jtcat.com/archives/hello-world';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://blog.jtcat.com/archives/hello-world'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 
@@ -661,19 +639,19 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/cake-is-a-lie/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
+    
+        <a href="/archives/cake-is-a-lie" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
     
 </nav>
 
@@ -723,11 +701,20 @@
         <ul id="settings-dropdown" class="dropdown-menu">
             
                 <li>
-                    <a href="mailto: jitingchina@gmail.com" target="_blank" title="Email Me">
+                    <a href="mailto:jitingchina@gmail.com" target="_blank" title="Email Me">
                         
                             <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
                         
                         Email Me
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://jtcat.com" target="_blank" title="jtcat.com">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">explorer</i>
+                        
+                        jtcat.com
                     </a>
                 </li>
             
@@ -744,8 +731,6 @@
                 主页
             </a>
         </li>
-        
-            <li class="divider"></li>
         
     
 
@@ -772,7 +757,7 @@
         <li class="dropdown">
             <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
                 
-                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                    <i class="material-icons sidebar-material-icons">app</i>
                 
                 分类
                 <b class="caret"></b>
@@ -788,13 +773,57 @@
     <!-- Pages  -->
     
         <li>
-            <a href="/about" title="About">
+            <a href="/timeline" title="时间线">
+                
+                    <i class="material-icons sidebar-material-icons">alarm</i>
+                
+                时间线
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+        <li>
+            <a href="/about" title="关于我">
                 
                     <i class="material-icons sidebar-material-icons">person</i>
                 
-                About
+                关于我
             </a>
         </li>
+        
+    
+        <li>
+            <a href="/tags" title="标签">
+                
+                    <i class="material-icons sidebar-material-icons">bookmark</i>
+                
+                标签
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/gallery" title="图册">
+                
+                    <i class="material-icons sidebar-material-icons">photo</i>
+                
+                图册
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/links" title="友链">
+                
+                    <i class="material-icons sidebar-material-icons">people</i>
+                
+                友链
+            </a>
+        </li>
+        
+            <li class="divider"></li>
         
     
 
@@ -824,17 +853,8 @@ It will not impact the appearance and can give developers a lot of support :)
 
 <!-- Sidebar Divider -->
 
-    <div class="sidebar-divider"></div>
-
 
 <!-- Theme Material -->
-
-    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
-        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
-            主题 - Material
-            <span class="sidebar-badge badge-circle">i</span>
-        </div>
-    </a>
 
 
 <!-- Help & Support -->
@@ -940,7 +960,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
         <!--Copyright-->
         <div id="copyright">
-            Copyright&nbsp;©&nbsp;2017&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>Jiting's Blog - Sabishi Yozora
+            Copyright&nbsp;©&nbsp;2016&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>Jiting's Blog - Sabishi Yozora
             
         </div>
 
