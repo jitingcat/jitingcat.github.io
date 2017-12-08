@@ -14,8 +14,8 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.jtcat.com
 root: /
-permalink: archives/:title
-permalink_defaults:
+permalink: archives/:title.html
+permalink_defaults: :title.html
 
 # Directory
 source_dir: source
