@@ -52,18 +52,18 @@
     
     <entry>
       <title></title>
-      <url>/links/index.html</url>
-      <content type="html"><![CDATA[<hr>
-<p>title: 友链<br>date:</p>
-<h2 id="layout-links"><a href="#layout-links" class="headerlink" title="layout: links"></a>layout: links</h2>]]></content>
-    </entry>
-    
-    <entry>
-      <title></title>
       <url>/tags/index.html</url>
       <content type="html"><![CDATA[<hr>
 <p>title: 标签<br>date:</p>
 <h2 id="layout-tags"><a href="#layout-tags" class="headerlink" title="layout: tags"></a>layout: tags</h2>]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/links/index.html</url>
+      <content type="html"><![CDATA[<hr>
+<p>title: 友链<br>date:</p>
+<h2 id="layout-links"><a href="#layout-links" class="headerlink" title="layout: links"></a>layout: links</h2>]]></content>
     </entry>
     
     <entry>
