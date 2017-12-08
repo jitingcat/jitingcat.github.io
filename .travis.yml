@@ -10,7 +10,6 @@ before_install:
   - export TZ=Asia/Shanghai
   - chmod +x ./deploy.sh
   - cd hexo
-  - npm cache clean
   - npm install hexo-cli -g
 
 install:
