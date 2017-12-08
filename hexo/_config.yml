@@ -103,8 +103,4 @@ sitemap:
   path: sitemap.xml
   #tag: false
   #category: false
-
-prism_plugin:
-  mode: 'preprocess'
-  theme: 'okaidia'
-  line_number: true
+  
