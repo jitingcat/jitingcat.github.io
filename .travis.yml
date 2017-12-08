@@ -1,10 +1,7 @@
 language: node_js
-
-node_js: stable
-
-#cache:
-#    directories:
-#        - hexo/node_modules
+dist: trusty
+node_js:
+  - "9"
 
 before_install:
   - export TZ=Asia/Shanghai
@@ -25,6 +22,8 @@ after_script:
 branches:
   only:
     - source
-env:
-  global:
-    secure: k4bGfMICTprfPOWLJl/HPuySjm8AOyDyPtmQDfsgQR1bSZgMO9fJBl0e1puu0v6BbnzmTBLf+GNnFYzldJ5peI91Ea4bNg+xT8e38/DKvqHlHAg3ksC8vXwd6s+o8bL5ixJo0Bwl41bp3WLshRbx37JzsmP8ofAlR5uzZY6GLc0g925wGG4XDKAXp5OV9ywRtCTylTyHMb0lLdWa+0Dllxp5WRpTGwTUFjsIKHleSCbYPUADQ3D1G8sy/ga4LCkzZcgs68R+zrJ/Oo0WWvansh1nvlicL+ChQZAHK1etP8WDFbU9OfJg4M4d/yGCCH2MC12QxC+bv1x4e6Q4K5m4yrJo8O+selVA+ky5w9dqEVkfBDkW9jBcxS+N86K8QwDvTUyJSiULfxraX9MlpyCyrvn1bQICMmsrg9BeUPRtSeM8wdxo4TFE1mrGod9GPhNUxFTcs14M8h/dAZ+kgd03O4fONzoFsSz+aPyP01B++12ZtIWaX1+tKAR/30mXt32Ae7ToBzM6CckCz8wQtPM4e44OTdWq0Y78z1tEzEWQx+87wCERVbeBdxD9beeqYCvpOeLE6Tq99/ku56UMZo/gmkd9Qou6E2c7DLH9zY3USvaTAa6v1WkULxMyBX+pTDLNA8ugWmY9HpsmsdplIzxgfyI3q2Jn32uJKPafTgxB6s4=
+    
+cache:
+  directories:
+    - hexo/node_modules
+
