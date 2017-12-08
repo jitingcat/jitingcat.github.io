@@ -74,9 +74,9 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: material
 
-include:
-  - .htaccess
-  - robots.txt
+#include:
+#  - .htaccess
+#  - robots.txt
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -96,8 +96,8 @@ feed:
   #content_limit_delim: ' '
 
 search:
-    path: search.xml
-    field: all
+  path: search.xml
+  field: all
 
 sitemap:
   path: sitemap.xml

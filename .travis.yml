@@ -8,8 +8,10 @@ node_js: stable
 
 before_install:
   - export TZ=Asia/Shanghai
+  - apt update
   - chmod +x ./deploy.sh
   - cd hexo
+  - npm cache clean
   - npm install hexo-cli -g
 
 install:
