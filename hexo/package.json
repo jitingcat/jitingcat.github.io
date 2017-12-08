@@ -1,7 +1,15 @@
 {
-  "name": "hexo-site",
+  "name": "jiting-blog",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "generate": "hexo g",
+    "deploy": "hexo d",
+    "server": "hexo s",
+    "clean": "hexo clean",
+    "compress": "gulp",
+    "build": "hexo clean && hexo g && gulp"
+  },
   "hexo": {
     "version": "3.4.3"
   },
@@ -14,12 +22,19 @@
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-json-content": "^3.0.1",
     "hexo-generator-search": "^2.1.1",
+    "hexo-generator-seo-friendly-sitemap": "^0.0.21",
     "hexo-generator-tag": "^0.2.0",
     "hexo-helper-post-top": "0.0.1",
     "hexo-helper-qrcode": "^1.0.2",
+    "hexo-prism-plugin": "^2.2.0",
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-htmlclean": "^2.7.15",
+    "gulp-htmlmin": "^3.0.0"
   }
 }
