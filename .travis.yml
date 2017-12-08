@@ -17,6 +17,7 @@ install:
   - npm install
 
 script:
+  - \cp -f ../patch/index.js node_modules/hexo-prism-plugin/src/index.js
   - hexo clean
   - hexo g
   - gulp
