@@ -15,7 +15,7 @@ timezone: Asia/Shanghai
 url: https://blog.jtcat.com
 root: /
 permalink: archives/:title
-permalink_defaults: :title
+permalink_defaults:
 
 # Directory
 source_dir: source
