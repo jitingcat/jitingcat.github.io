@@ -2,10 +2,9 @@ language: node_js
 
 node_js: stable
 
-cache:
-    apt: true
-    directories:
-        - hexo/node_modules
+#cache:
+#    directories:
+#        - hexo/node_modules
 
 before_install:
   - export TZ=Asia/Shanghai
