@@ -3,12 +3,22 @@
 
     <sitemap>
         <loc>https://blog.jtcat.com/post-sitemap.xml</loc>
-        <lastmod>2017-12-10T03:45:51.068Z</lastmod>
+        <lastmod>2017-12-10T07:40:00.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://blog.jtcat.com/page-sitemap.xml</loc>
-        <lastmod>2017-12-10T03:45:51.068Z</lastmod>
+        <lastmod>2017-12-10T07:22:06.008Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://blog.jtcat.com/category-sitemap.xml</loc>
+        <lastmod>2017-12-10T07:40:00.000Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://blog.jtcat.com/tag-sitemap.xml</loc>
+        <lastmod>2017-12-10T07:40:00.000Z</lastmod>
     </sitemap>
 
 </sitemapindex>

@@ -7,11 +7,10 @@
     </url>
 
     <url>
-        <loc>https://blog.jtcat.com/archives/hello-world.html</loc>
+        <loc>https://blog.jtcat.com/categories/%E6%9D%82%E8%B0%88/</loc>
         <lastmod>2017-12-10T07:40:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
 </urlset>

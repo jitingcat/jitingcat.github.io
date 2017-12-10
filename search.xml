@@ -3,31 +3,35 @@
   
     
     <entry>
-      <title><![CDATA[Hello World]]></title>
+      <title><![CDATA[博客搬家啦>_<]]></title>
       <url>/archives/hello-world.html</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+      <content type="html"><![CDATA[<p>嘛…终于正式换到hexo啦…记录一下历程，旧的站点文章找时间搬一下吧(⊙ˍ⊙)</p>
+<a id="more"></a>
+<h2 id="起因…"><a href="#起因…" class="headerlink" title="起因…"></a>起因…</h2><p>过去几年一直用的都是wordpress，站点来回迁移好几次，文章倒没写几篇。（主要也是懒，没有记录的习惯Orz）</p>
+<p>听说hexo很久了，之前也尝试了typecho，总感觉过于简单不是很好用。（相比之下wp可能太臃肿了= =）因为各种原因一直都没有尝试hexo。最近稍微闲了点，就给笔记本装了arch，并开始认真学习一些东西了（顺便摸鱼）。因为原先服务器性能的问题，打算重新试试使用静态博客，然后就认真看着教程开始折腾nodejs和hexo。</p>
+<h2 id="一路上遇到好多坑"><a href="#一路上遇到好多坑" class="headerlink" title="一路上遇到好多坑"></a>一路上遇到好多坑</h2><p>折腾的过程： arch本地测试 —→ github pages —→ gh-pages + travis ci</p>
+<h3 id="系统坑"><a href="#系统坑" class="headerlink" title="系统坑"></a>系统坑</h3><p>首先之前我都是用centos，arch我用着不太习惯。折腾了很久还是没装好，最后直接改用了manjaro-kde这个比较方便的发行版，环境配置好了，就不用自己折腾了。吐槽一下manjaro那个自带的vi（不知道arch是不是同样用vi，centos默认vi是打开vim的），用起来太奇怪了…都7102年了还有人不用vim么…</p>
+<h3 id="git-坑"><a href="#git-坑" class="headerlink" title="git 坑"></a>git 坑</h3><p>因为使用了material的主题，是一个git子项目，导致ci编译失败好几次，过了一个半小时才想到了这个可能并解决（我好菜啊）。</p>
+<h3 id="各种坑…"><a href="#各种坑…" class="headerlink" title="各种坑…"></a>各种坑…</h3><p>emmm以后再补吧…先占个位</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>现在也算是初步配置好了吧…头像 站点icon啥的图片媒体还没来得及弄，也没想好要用什么…唔..</p>
+<p>配置的过程比wp累很多，但这个站点不需要服务器，只需要写文章上传就行，还算方便..(感觉还有很多大坑等着我233)</p>
+<p>希望能保持吧…先这样…这篇写了快2个小时…又要忙着备考了…天天不务正业…</p>
 ]]></content>
       
+        <categories>
+            
+            <category> 杂谈 </category>
+            
+        </categories>
         
-    </entry>
-    
-    <entry>
-      <title><![CDATA[cake is a lie]]></title>
-      <url>/archives/cake-is-a-lie.html</url>
-      <content type="html"><![CDATA[<h1 id="Cake-is-a-LIE"><a href="#Cake-is-a-LIE" class="headerlink" title="Cake is a LIE!"></a>Cake is a LIE!</h1><h2 id=""><a href="#" class="headerlink" title=":)"></a>:)</h2>]]></content>
-      
+        
+        <tags>
+            
+            <tag> 日常 </tag>
+            
+            <tag> 折腾 </tag>
+            
+        </tags>
         
     </entry>
     
@@ -35,19 +39,15 @@
   
     
     <entry>
-      <title></title>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<hr>
-<p>title: 关于我<br>date:</p>
-<h2 id="layout-about"><a href="#layout-about" class="headerlink" title="layout: about"></a>layout: about</h2>]]></content>
+      <title><![CDATA[关于我]]></title>
+      <url>/about.html</url>
+      <content type="html"></content>
     </entry>
     
     <entry>
-      <title></title>
-      <url>/gallery/index.html</url>
-      <content type="html"><![CDATA[<hr>
-<p>title: 图册<br>date:</p>
-<h2 id="layout-gallery"><a href="#layout-gallery" class="headerlink" title="layout: gallery"></a>layout: gallery</h2>]]></content>
+      <title><![CDATA[图册]]></title>
+      <url>//gallery.html</url>
+      <content type="html"></content>
     </entry>
     
     <entry>
@@ -57,11 +57,9 @@
     </entry>
     
     <entry>
-      <title></title>
-      <url>/tags/index.html</url>
-      <content type="html"><![CDATA[<hr>
-<p>title: 标签<br>date:</p>
-<h2 id="layout-tags"><a href="#layout-tags" class="headerlink" title="layout: tags"></a>layout: tags</h2>]]></content>
+      <title><![CDATA[标签]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
     </entry>
     
     <entry>
