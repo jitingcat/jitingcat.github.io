@@ -1,10 +1,7 @@
 ---
-title: 博客搬家啦>_<
+title: 博客搬家啦
 tags:
-  - 日常
-  - 折腾
 categories:
-  - 杂谈
 date: 2017-12-08 18:40:00
 updated: 2017-12-10 15:40:00
 toc: false
