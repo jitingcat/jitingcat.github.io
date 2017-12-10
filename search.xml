@@ -65,11 +65,9 @@
     </entry>
     
     <entry>
-      <title></title>
-      <url>/timeline/index.html</url>
-      <content type="html"><![CDATA[<hr>
-<p>title: 时间线<br>date:</p>
-<h2 id="layout-timeline"><a href="#layout-timeline" class="headerlink" title="layout: timeline"></a>layout: timeline</h2>]]></content>
+      <title><![CDATA[时间轴]]></title>
+      <url>/timeline.html</url>
+      <content type="html"></content>
     </entry>
     
   
