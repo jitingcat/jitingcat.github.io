@@ -1,38 +1,44 @@
 ---
-title: Hello World
+title: 博客搬家啦>_<
+tags:
+  - 日常
+  - 折腾
+categories:
+  - 杂谈
+date: 2017-12-08 18:40:00
+updated: 2017-12-10 15:40:00
+toc: false
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+嘛...终于正式换到hexo啦...记录一下历程，旧的站点文章找时间搬一下吧(⊙ˍ⊙)
 
-## Quick Start
+<!--more-->
 
-### Create a new post
+## 起因...
 
-``` bash
-$ hexo new "My New Post"
-```
+过去几年一直用的都是wordpress，站点来回迁移好几次，文章倒没写几篇。（主要也是懒，没有记录的习惯Orz）
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+听说hexo很久了，之前也尝试了typecho，总感觉过于简单不是很好用。（相比之下wp可能太臃肿了= =）因为各种原因一直都没有尝试hexo。最近稍微闲了点，就给笔记本装了arch，并开始认真学习一些东西了（顺便摸鱼）。因为原先服务器性能的问题，打算重新试试使用静态博客，然后就认真看着教程开始折腾nodejs和hexo。
 
-### Run server
+## 一路上遇到好多坑
 
-``` bash
-$ hexo server
-```
+折腾的过程： arch本地测试 —→ github pages —→ gh-pages + travis ci
 
-More info: [Server](https://hexo.io/docs/server.html)
+### 系统坑
 
-### Generate static files
+首先之前我都是用centos，arch我用着不太习惯。折腾了很久还是没装好，最后直接改用了manjaro-kde这个比较方便的发行版，环境配置好了，就不用自己折腾了。吐槽一下manjaro那个自带的vi（不知道arch是不是同样用vi，centos默认vi是打开vim的），用起来太奇怪了...都7102年了还有人不用vim么...
 
-``` bash
-$ hexo generate
-```
+### git 坑
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+因为使用了material的主题，是一个git子项目，导致ci编译失败好几次，过了一个半小时才想到了这个可能并解决（我好菜啊）。
 
-### Deploy to remote sites
+### 各种坑...
 
-``` bash
-$ hexo deploy
-```
+emmm以后再补吧...先占个位
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+## 最后
+
+现在也算是初步配置好了吧...头像 站点icon啥的图片媒体还没来得及弄，也没想好要用什么...唔..
+
+配置的过程比wp累很多，但这个站点不需要服务器，只需要写文章上传就行，还算方便..(感觉还有很多大坑等着我233)
+
+希望能保持吧...先这样...这篇写了快2个小时...又要忙着备考了...天天不务正业...
