@@ -1,6 +1,6 @@
 ---
 title: 图册
-date:
+date: 
 layout: gallery
---- 
- 
+permalink: /gallery.html
+---
