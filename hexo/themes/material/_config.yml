@@ -89,8 +89,8 @@ img:
 #          to /source/data/head.yml as custom code, to load custom font files.
 fonts:
     family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
-    use: custom
-    custom_font_host: https://fonts.cat.net/
+    use: catnet
+    custom_font_host: 
 
 # Card Elevation Level
 card_elevation: 2
@@ -157,7 +157,7 @@ toc:
 
 # SNS Menu
 sns:
-    email: jitingchina@gmail.com
+    email: jiting@jtcat.com
     facebook: 
     twitter: "https://twitter.com/JitingCN"
     googleplus: 
@@ -185,7 +185,7 @@ sns_share:
 sidebar:
     dropdown:
         Email Me:
-            link: "mailto:jitingchina@gmail.com"
+            link: "mailto:jiting@jtcat.com"
             icon: email
         jtcat.com:
             link: "https://jtcat.com"
