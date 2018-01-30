@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/img/favicon.png"
-    high_res_favicon: "/img/favicon.png"
-    apple_touch_icon: "/img/favicon.png"
+    favicon: "/favicon.ico"
+    high_res_favicon: "/favicon.png"
+    apple_touch_icon: "/favicon.png"
     keywords: jiting's blog
     site_verification:
         google: ROSov09Kf8_29kbRK8NpYWVTioKON11XcjqluueCL88
@@ -62,7 +62,7 @@ thumbnail:
 #        color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
 #        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
-    purecolor: "#F5F5F5"
+    purecolor: "#66CCFF"
     #bgimg: "/img/bg.png"
     bing:
         enable: false
@@ -70,8 +70,8 @@ background:
 
 # Images Settings
 img:
-    logo: "/img/logo.png"
-    avatar: "/img/avatar.png"
+    logo: "/favicon.png"
+    avatar: "/img/icons/icon-96x.png"
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
