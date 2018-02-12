@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.jtcat.com/"/>
-  <updated>2017-01-30T03:22:00.000Z</updated>
+  <updated>2018-01-30T03:22:00.000Z</updated>
   <id>https://blog.jtcat.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.jtcat.com/archives/hello-world.html"/>
     <id>https://blog.jtcat.com/archives/hello-world.html</id>
     <published>2017-12-08T18:40:00.000Z</published>
-    <updated>2017-01-30T03:22:00.000Z</updated>
+    <updated>2018-01-30T03:22:00.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="这是一篇-Hello-World"><a href="#这是一篇-Hello-World" class="headerlink" title="这是一篇 Hello World"></a>这是一篇 Hello World</h1><p>终于正式换到hexo啦……嘛…记录一下历程<a id="more"></a>，<del>旧的站点文章找时间搬一下吧(⊙ˍ⊙)</del><br>仔细翻了一遍以前写的居然没找到什么有价值的，重新开始算了&gt;_&lt;</p><!--more--><h2 id="为什么会有这个博客"><a href="#为什么会有这个博客" class="headerlink" title="为什么会有这个博客"></a>为什么会有这个博客</h2><p>其实我折腾博客也有一段时间了，过去几年一直用的都是wordpress。站点来回迁移好几次，文章倒没写几篇（主要是<del>懒，没有记录的习惯Orz</del>拖延症晚期）</p><p>听说hexo很久了，之前也尝试了typecho，用着不太习惯，不过相比之下wp可能太臃肿了……因为各种原因一直都没有尝试hexo。最近稍微闲了点，就给笔记本装了arch，并开始认真学习一些东西了（顺便摸鱼）。因为原先服务器性能的问题，打算重新试试使用静态博客，然后就认真看着教程开始折腾nodejs和hexo</p><h2 id="然后就是折腾"><a href="#然后就是折腾" class="headerlink" title="然后就是折腾"></a>然后就是折腾</h2><p>折腾的过程： Arch Linux本地测试 —→ Github Pages —→ gh-pages + Travis-ci</p><p>TO DO: 写一系列博文描述具体的过程</p><h3 id="系统坑"><a href="#系统坑" class="headerlink" title="系统坑"></a>系统坑</h3><p>之前我一直都是用Centos，Arch我用着不太习惯（被人传教ww）。最后直接改用manjaro-kde这个比较方便的发行版，基本的环境配置都有，不需要花太多时间折腾。vi使用起来没有Centos7默认的vi(实际上是vim)好用……</p><h3 id="Git-坑"><a href="#Git-坑" class="headerlink" title="Git 坑"></a>Git 坑</h3><p>因为使用了material的主题，是一个git子项目，导致ci编译失败好几次，过了一个半小时才想到了这个可能并解决（我大概是……有点蠢吧）</p><h2 id="然后啪的一声就弄好了"><a href="#然后啪的一声就弄好了" class="headerlink" title="然后啪的一声就弄好了"></a>然后啪的一声就弄好了</h2><p>那当然是不可能的2333</p><p>现在也算是初步配置好了吧…头像 站点icon啥的图片媒体还没来得及弄，也没想好要用什么…唔..（2018/01/30更新：图片啥的基本ok?)</p><p>配置的过程比wp麻烦很多，但这个站点不需要服务器，只需要写文章上传就行，还算方便..(感觉还有很多大坑等着我233)</p><p>希望能保持吧…先这样…这篇写了快2个小时…又要忙着备考了…天天不务正业…</p>]]></content>
     
